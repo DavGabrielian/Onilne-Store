@@ -46,7 +46,7 @@ session_start();
             </div>
             <div class="form-group">
               <label>Upload Images</label>
-              <input type="file" name="files[]" class="form-control"  multiple>
+              <input type="file" name="files[]" class="btn btn-outline-secondary"  multiple>
             </div>
             <input type="submit" name='submit' class="btn btn-secondary btn-lg" value="Submit" >
           </form>
