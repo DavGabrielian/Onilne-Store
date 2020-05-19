@@ -50,7 +50,7 @@ if(empty($_SESSION['error']))
         //UPLOAD
         if (isset($_POST['submit'])) {
     
-            $targetDir = "uploads/";
+            $targetDir = "images/";
             $allowTypes = array('jpg', 'jpeg', 'png', 'gif');
         
             $statusMsg  = $insertValuesSQL  =  '';
